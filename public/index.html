@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Web Development Company">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTom Labs</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Mobile Sidebar -->
+    <nav id="mobile-sidebar" class="hidden md:hidden container fixed top-0 right-0 bottom-0 left-1/3 bg-gray-100 z-50">
+        <!-- Close Button  -->
+        <div class="fixed right-0 top-0 mt-8 mr-10">
+            <button id="close-button" class="hidden md:hidden">
+                <img class="h-4 w-4" src="img/icon-close.svg" alt="">
+            </button>
+        </div>
+        <!-- Menu Items  -->
+        <div class="flex flex-col items-left ml-10 mt-20 text-sm space-y-5">
+            <span>
+                <ion-icon class="text-[14px] mr-3" name="home-outline"></ion-icon>
+                <a class="hover:text-orange-500" href="#home">HOME</a>
+            </span>
+            <span>
+                <ion-icon class="text-[14px] mr-3" name="construct-outline"></ion-icon>
+                <a class="hover:text-orange-500" href="#services">SERVICES</a>
+            </span>
+            <span>
+                <ion-icon class="text-[14px] mr-3" name="mail-outline"></ion-icon>
+                <a class="hover:text-orange-500" href="#contact">CONTACT</a>
+            </span>
+        </div>
+        <div class="flex md:flex justify-between">
+            <a href="#"
+                class="p-2 px-4 pt-1 ml-12 mt-6 text-white rounded-full baseline bg-orange-500 text-white text-sm hover:bg-orange-300">
+                Get Started
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Navigation -->
+    <nav class="relative container bg-gray-100 mx-auto p-4">
+        <div class="flex items-center justify-between md:justify-around">
+            <!-- Logo  -->
+            <div class="pt-2">
+                <img class="w-25 h-10" src="img/logo-no-background.png" alt="">
+            </div>
+            <!-- Menu Items  -->
+            <div class="hidden font-[Poppins] md:flex pr-6 text-md md:space-x-6">
+                <a class="hover:text-orange-500" href="#home">HOME</a>
+                <a class="hover:text-orange-500" href="#services">SERVICES</a>
+                <a class="hover:text-orange-500" href="#contact">CONTACT</a>
+            </div>
+            <div>
+                <button class="hidden flex md:flex justify-start">
+                    <a href="#"
+                        class="p-3 px-6 pt-2 text-white rounded-full baseline bg-orange-500 text-white hover:bg-orange-300">
+                        Get Started
+                    </a>
+                </button>
+            </div>
+            <!-- Menu Button  -->
+            <button id="menu-button" class="mr-6 md:hidden">
+                <img class="h-3 w-4" src="img/icon-hamburger.svg" alt="">
+            </button>
+        </div>
+    </nav>
+
+
+    <!-- Content  -->
+    <main>
+        <div class="container flex flex-col items-center mx-auto space-y-0 md:space-y-0">
+            <!-- Image  -->
+            <div id="home" class="md:w-full mb-8">
+                <img class="w-full h-full" src="img/company.jpg" alt="">
+            </div>
+
+            <section>
+                <div id="services" class="flex flex-col items-center  md:mr-6 space-y-2">
+                    <h1 class="text-blue-600 text-3xl font-bold text-center md:text-4xl md:text-left mb-2">
+                        What We Do?
+                    </h1>
+
+                    <div class="flex flex-col mt-24 md:flex-row md:space-x-3">
+                        <!-- Testimonial 1 -->
+                        <div
+                            class="flex flex-col mx-10 mb-4 max-w-sm items-center p-4 space-y-2 rounded-md border border-gray-400 md:w-1/2 hover:cursor-pointer hover:bg-gray-100 hover:font-serif">
+                            <h5 class="text-lg font-semibold">Web Development</h5>
+                            <p class="text-sm text-gray-600">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, dicta. Placeat molestias
+                                a quas tenetur rerum dolorem temporibus voluptate. Nisi ex ab error nulla amet eaque
+                                odio totam debitis quis.
+                            </p>
+                        </div>
+                        <!-- Testimonial 2 -->
+                        <div
+                            class="flex flex-col mx-10 mb-4 max-w-sm items-center p-4 space-y-2 rounded-md border border-gray-400 md:w-1/2 hover:cursor-pointer hover:bg-gray-100 hover:font-serif">
+                            <h5 class="text-lg font-semibold">Branding</h5>
+                            <p class="text-sm text-gray-600">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quo itaque animi aut eos
+                                atque sapiente non architecto quidem accusamus doloremque ipsum quaerat voluptate, nemo
+                                suscipit libero eius labore modi!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col mt-24 md:flex-row md:space-x-3">
+                        <!-- Testimonial 1 -->
+                        <div
+                            class="flex flex-col mx-10 mb-4 max-w-sm items-center p-4 space-y-2 rounded-md border border-gray-400 md:w-1/2 hover:cursor-pointer hover:bg-gray-100 hover:font-serif hover:font-serif">
+                            <h5 class="text-lg font-semibold">UI/UX Design</h5>
+                            <p class="text-sm text-gray-600">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti delectus eos ex
+                                inventore distinctio minus vitae eligendi ab! Iure ipsa mollitia deleniti quia. Iure cum
+                                in perspiciatis, ullam maxime ut.
+                            </p>
+                        </div>
+                        <!-- Testimonial 2 -->
+                        <div
+                            class="flex flex-col mx-10 mb-4 max-w-sm items-center p-4 space-y-2 rounded-md border border-gray-400 md:w-1/2 hover:cursor-pointer hover:bg-gray-100 hover:font-serif">
+                            <h5 class="text-lg font-semibold">Content Writing</h5>
+                            <p class="text-sm text-gray-600">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis atque asperiores,
+                                quis et vero aspernatur dolorem soluta eius odit suscipit maxime corporis dolor
+                                accusantium necessitatibus unde cum quam?
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+
+            <section class="md:w-full bg-orange-400" id="cta">
+                <!-- Flex Container -->
+                <div
+                    class="container flex flex-col items-center justify-between px-6 py-24 mx-auto md:mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+                    <h2
+                        class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left mr-10">
+                        Let's work on your next project
+                    </h2>
+                    <div>
+                        <a href=""
+                            class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-500">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="container bg-gray-200">
+                <div class="pt-6 ml-6 mb-8  mr-6 md:text-center">
+                    <h2 class=" text-4xl font-bold mb-3">Contact Us</h2>
+                    <form class="" action="submit">
+                        <input
+                            class="block md:mx-auto border border-black shadow w-[350px] sm:w-[400px] mb-2 py-2 px-3 focus:outline-none rounded-lg"
+                            type="text" placeholder="First Name">
+                        <input
+                            class="block md:mx-auto border border-black shadow w-[350px] sm:w-[400px] mb-2 py-2 px-3 focus:outline-none rounded-lg"
+                            type="text" placeholder="Last Name">
+                        <input
+                            class="block md:mx-auto border border-black shadow w-[350px] sm:w-[400px] mb-2 py-2 px-3 focus:outline-none rounded-lg"
+                            type="email" placeholder="Email">
+                        <label for="message">Your Message</label>
+                        <textarea id="message"
+                            class="block md:mx-auto border border-black shadow text-[12px] w-[350px] sm:w-[400px] mb-2 py-2 px-3 focus:outline-none rounded-lg"
+                            placeholder="Write your thoughts" rows="8">
+                        </textarea>
+
+                        <div class=" mt-5">
+                            <a class="bg-green-500 text-white rounded-full p-3 py-2 px-5 hover:bg-green-300"
+                                href="#">Submit</a>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        </section>
+        </div>
+    </main>
+
+    <footer class="bg-gray-600 container mx-auto">
+        <div class="container flex flex-col  p-8">
+            <div class="flex flex-col text-left mb-3 ml-10 md:mx-auto md:flex-row md:space-x-6">
+                <h3 class="font-semibold text-white md:hidden">NAVIGATION LINKS</h3>
+                <span>
+                    <ion-icon class="text-[14px] mr-1" name="home-outline"></ion-icon>
+                    <a class="text-[12px] hover:text-orange-500  text-white" href="#home">HOME</a>
+                </span>
+                <span>
+                    <ion-icon class="text-[14px] mr-1" name="construct-outline"></ion-icon>
+                    <a class="text-[12px] hover:text-orange-500 text-white" href="#services">SERVICES</a>
+                </span>
+                <span>
+                    <ion-icon class="text-[14px] mr-1" name="mail-outline"></ion-icon>
+                    <a class="text-[12px] hover:text-orange-500 text-white" href="#contact">CONTACT</a>
+                </span>
+            </div>
+            <div class="flex justify-center items-center space-x-3">
+                <a href="#">
+                    <ion-icon class="text-xl" name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon class="text-xl" name="logo-twitter"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon class="text-xl" name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon class="text-xl" name="logo-linkedin"></ion-icon>
+                </a>
+            </div>
+            <p class="text-white font-semibold mx-auto mt-2">Follow Us</p>
+            <div class="mx-auto mt-4">
+                <p class="text-sm"> &#169; Copyright TechTom Labs. All rights reserved. </p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
